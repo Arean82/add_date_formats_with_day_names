@@ -1,5 +1,3 @@
-require 'add_date_formats_with_day_names'
-
 Redmine::Plugin.register :add_date_formats_with_day_names do
   name 'Add Date Formats With Day Names plugin'
   author 'bokos'
