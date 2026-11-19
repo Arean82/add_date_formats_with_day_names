@@ -1,6 +1,35 @@
-= add_date_formats_with_day_names
+= Add Date Formats With Day Names
 
-Redmine plugin. Adds following date formats with day names to settings:
+A Redmine plugin that extends settings with selectable date formats including day names.
 
-- %a., %d.%m.%Y
-- %A, %d.%m.%Y
+== Features
+
+Adds the following selectable date formats to Redmine's display settings:
+* <tt>%a., %d.%m.%Y</tt> (e.g., Thu., 19.11.2026)
+* <tt>%A, %d.%m.%Y</tt> (e.g., Thursday, 19.11.2026)
+
+== Compatibility
+
+* Redmine 5.x, 6.x, 7.x
+* Ruby 3.x, 4.x
+
+== Installation
+
+1. Clone or copy the plugin into your Redmine plugins directory:
+    cd /data/redmine/plugins
+    git clone https://github.com/Arean82/add_date_formats_with_day_names.git
+
+2. Restart Redmine application server:
+    sudo systemctl restart redmine
+
+3. Go to *Administration -> Settings -> Display* and choose your preferred date format.
+
+== Author & Maintainer
+
+* **Author:** Arean Narrayan
+* **Email:** arean@synorastudio.in
+* **Repository:** https://github.com/Arean82/add_date_formats_with_day_names
+
+== License
+
+Distributed under the MIT License.
